@@ -1,0 +1,3 @@
+node_modules/
+logs/task_log.txt
+.env

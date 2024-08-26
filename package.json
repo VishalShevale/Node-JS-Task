@@ -1,0 +1,22 @@
+{
+  "name": "node-js-task",
+  "version": "1.0.0",
+  "description": "This project implements a Node.js API for task queueing with rate limiting using Redis and Bull.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"No tests defined yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.0",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
